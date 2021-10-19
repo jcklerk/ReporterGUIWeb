@@ -32,8 +32,8 @@
 * -
 */
 
-define("RG_ROOT", "true", true);
-define("RG_INSTALL", dirname(dirname(__FILE__)). "/install", true);
+define("RG_ROOT", "true");
+define("RG_INSTALL", dirname(dirname(__FILE__)). "/install");
 
 Class ReporterGUI
 {

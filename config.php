@@ -9,14 +9,14 @@ if (!defined('RG_ROOT')) die("This file can not be opened in this way");
 $config['installed-sec'] = false;
 
 # Mysql management
-$config['mysql-host'] = "localhost";
-$config['mysql-port'] = 3306;
-$config['mysql-user'] = "root";
-$config['mysql-password'] = "";
-$config['mysql-databaseName'] = "reportergui";
+$config['mysql-host'] = "localhost"; // "localhost"
+$config['mysql-port'] = 3306; // 3306
+$config['mysql-user'] = "root"; // "root"
+$config['mysql-password'] = ""; // ""
+$config['mysql-databaseName'] = "reportergui"; // "reportergui"
 
 /* Do not touch the version please */
-$config['versions'] = "1.6.5";
+$config['versions'] = "1.6.6";
 
 # Server Name
 $config['nameServer'] = "NewMcStory";

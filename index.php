@@ -18,7 +18,7 @@
 *  @package ReporterGUI
 */
 
-define("RG_ROOT_INDEX", "true", true);
+define("RG_ROOT_INDEX", "true");
 
 require_once("inc/heart.inc.php");
 

@@ -204,6 +204,7 @@ Class _RGUtilities {
 		$protocol = $this->strleft(strtolower($_SERVER["SERVER_PROTOCOL"]), "/").$s;
 		$port = ($_SERVER["SERVER_PORT"] == "80") ? "" : (":".$_SERVER["SERVER_PORT"]);
 		return $protocol."://".$_SERVER['SERVER_NAME'].$port.$_SERVER['REQUEST_URI'];
+	//	return "https://".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];  // use this for developing using  valet
 	}
 	public function strleft($s1, $s2) {
 		return substr($s1, 0, strpos($s1, $s2));
