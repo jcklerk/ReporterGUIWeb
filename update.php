@@ -57,6 +57,7 @@ When you purchased the plugin you have automatically accepted the terms of licen
 </ul>
 I also remember that the source code for the web interface is also available on GitHub, where you can report bugs and advise updates!<br />
 <i>This software was created by <a target="_blank" href="https://twitter.com/itpao25">itpao25</a></i><br /><br />
+<p>This is a Fork version you can view this fork <a href='https://github.com/jcklerk/ReporterGUIWeb'>here</a> on GitHub.</p>
 <?php
 $RGWeb->getFooter();
 ?>
