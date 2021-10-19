@@ -29,10 +29,10 @@ $config['customLogo'] = "";
 
 # Service for avatar attach
 # Use variable {username} for get name of the player
-$config['urlServiceAvatar'] = "https://crafatar.com/renders/head/{username}";
+$config['urlServiceAvatar'] = "https://mc-heads.net/head/{username}";
 
 # Service for avatar in menu
-$config['urlServiceAvatarMenu'] = "https://crafatar.com/avatars/{username}";
+$config['urlServiceAvatarMenu'] = "https://mc-heads.net/avatar/{username}";
 
 # Notify system
 # Ajax time for check (millisecond)
